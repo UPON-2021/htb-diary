@@ -1,6 +1,6 @@
 * 10.10.10.3
 
-![image-20231015092928689](D:\htb日记\images\Lame\image-20231015092928689.png)
+![image-20231015092928689](.\images\Lame\image-20231015092928689.png)
 
 ```
 Starting Nmap 7.94 ( https://nmap.org ) at 2023-10-15 09:29 CST

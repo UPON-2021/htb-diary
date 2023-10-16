@@ -1,4 +1,4 @@
-![image-20231014120453947](D:\htb日记\images\Optinmum\image-20231014120453947.png)
+![image-20231014120453947](.\images\Optinmum\image-20231014120453947.png)
 
 * 10.10.10.8
 
@@ -8,7 +8,7 @@
 
 
 
-![image-20231014213843625](D:\htb日记\images\Optinmum\image-20231014213843625.png)
+![image-20231014213843625](.\images\Optinmum\image-20231014213843625.png)
 
 
 
@@ -20,9 +20,9 @@
 
 
 
-![image-20231014214137194](D:\htb日记\images\Optinmum\image-20231014214137194.png)
+![image-20231014214137194](.\images\Optinmum\image-20231014214137194.png)
 
-![image-20231014214242171](D:\htb日记\images\Optinmum\image-20231014214242171.png)
+![image-20231014214242171](.\images\Optinmum\image-20231014214242171.png)
 
 ```
 [+] Files in registry that may contain credentials                                                                                                                                                                                        
@@ -65,14 +65,14 @@ https://www.rapid7.com/blog/post/2015/08/11/metasploit-local-exploit-suggester-d
 
 
 
-![image-20231014220125509](D:\htb日记\images\Optinmum\image-20231014220125509.png)
+![image-20231014220125509](.\images\Optinmum\image-20231014220125509.png)
 
 选个直接哒哒哒 
 
 
 
-![image-20231014221148189](D:\htb日记\images\Optinmum\image-20231014221148189.png)
+![image-20231014221148189](.\images\Optinmum\image-20231014221148189.png)
 
 成功提权
 
-![image-20231014221231658](D:\htb日记\images\Optinmum\image-20231014221231658.png)
+![image-20231014221231658](.\images\Optinmum\image-20231014221231658.png)

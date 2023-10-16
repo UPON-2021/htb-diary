@@ -58,27 +58,27 @@ Nmap done: 1 IP address (1 host up) scanned in 12.79 seconds
 
  sql注入，无结果，ftp下载得到一个`backup.zip`，但是压缩包加密的
 
-![image-20231004152337277](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004152337277.png)
+![image-20231004152337277](.\images\htb-StartPoint-Vaccine\image-20231004152337277.png)
 
 算一下crc32
 
-![image-20231004152545265](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004152545265.png)
+![image-20231004152545265](.\images\htb-StartPoint-Vaccine\image-20231004152545265.png)
 
 
 
 应该可以明文攻击
 
-![image-20231004160625548](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004160625548.png)
+![image-20231004160625548](.\images\htb-StartPoint-Vaccine\image-20231004160625548.png)
 
 emm 明文爆破半天啥都没有，然后hashcat起爆
 
-![image-20231004185500137](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004185500137.png)
+![image-20231004185500137](.\images\htb-StartPoint-Vaccine\image-20231004185500137.png)
 
 ~~俩小时还真给爆出来了~~
 
 自带的字典不够大，github上找个字典就给爆了
 
-![image-20231004160735772](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004160735772.png)
+![image-20231004160735772](.\images\htb-StartPoint-Vaccine\image-20231004160735772.png)
 
 压缩包密码`741852963`
 
@@ -142,7 +142,7 @@ session_start();
 
 哈希是 `2cb42f8734ea607eefed3b70af13bbd3`
 
-![image-20231004161441302](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004161441302.png)
+![image-20231004161441302](.\images\htb-StartPoint-Vaccine\image-20231004161441302.png)
 
 非常好密码
 
@@ -152,7 +152,7 @@ session_start();
 
 sqlmap启动~
 
-![image-20231004162402241](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004162402241.png)
+![image-20231004162402241](.\images\htb-StartPoint-Vaccine\image-20231004162402241.png)
 
 `/etc/passwd`
 
@@ -181,11 +181,11 @@ dashbord.php
 
 ssh 连上去了
 
-![image-20231004170239195](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004170239195.png)
+![image-20231004170239195](.\images\htb-StartPoint-Vaccine\image-20231004170239195.png)
 
 看看权限
 
-![image-20231004170521500](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004170521500.png)
+![image-20231004170521500](.\images\htb-StartPoint-Vaccine\image-20231004170521500.png)
 
 vi 进去后`:/bin/sh` 撅了
 
@@ -198,7 +198,7 @@ vi 进去后`:/bin/sh` 撅了
 
 nmap后 8443进去康康
 
-![image-20231004193145244](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231004193145244.png)
+![image-20231004193145244](.\images\htb-StartPoint-Vaccine\image-20231004193145244.png)
 
 msf 一通操作之后直接打进去
 
@@ -220,7 +220,7 @@ etc/passwd没找到啥内容，直接root登录
 
 22 80 443 
 
-![image-20231005153957599](D:\htb日记\images\htb-StartPoint-Vaccine\image-20231005153957599.png)
+![image-20231005153957599](.\images\htb-StartPoint-Vaccine\image-20231005153957599.png)
 
 
 
