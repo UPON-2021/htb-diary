@@ -103,15 +103,15 @@ thanks!
 ```
 
 ```
-101                hi team! <br>
-            
-                me and my friend(Cris) created a new scheduled backup plan for the database <br>
-            
-                the database will be automatically highly compressed and copied to /var/www/backups/ by a small bash script every day at 12:00 AM <br>
-            
-                *Note: the backup directory may change in the future! <br>
-            
-                *Note2: the backup would be protected with strong password! don&#x27;t even think to crack it guys! :) <br>
+    101                hi team! <br>
+
+                    me and my friend(Cris) created a new scheduled backup plan for the database <br>
+
+                    the database will be automatically highly compressed and copied to /var/www/backups/ by a small bash script every day at 12:00 AM <br>
+
+                    *Note: the backup directory may change in the future! <br>
+
+                    *Note2: the backup would be protected with strong password! don&#x27;t even think to crack it guys! :) <br>
             
 ```
 
